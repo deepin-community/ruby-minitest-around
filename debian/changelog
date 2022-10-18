@@ -1,0 +1,26 @@
+ruby-minitest-around (0.4.1-1) unstable; urgency=medium
+
+  * Team upload
+  * New upstream release
+    (Fixes FTBFS of ruby-default-value-for) (Closes: #906654)
+
+ -- Sruthi Chandran <srud@disroot.org>  Mon, 24 Sep 2018 22:17:52 +0530
+
+ruby-minitest-around (0.3.2-1) unstable; urgency=medium
+
+  * Upstream update 
+
+ -- Balasankar C <balasankarc@autistici.org>  Mon, 20 Jul 2015 17:52:30 +0530
+
+ruby-minitest-around (0.3.1-1) unstable; urgency=medium
+
+  * Upstream update
+  * Mimicked rakefile for running tests
+
+ -- Balasankar C <balasankarc@autistici.org>  Wed, 04 Mar 2015 21:41:25 +0530
+
+ruby-minitest-around (0.3.0-1) unstable; urgency=medium
+
+  * Initial release (Closes: #775829)
+
+ -- Balasankar C <balasankarc@autistici.org>  Tue, 20 Jan 2015 18:26:22 +0530

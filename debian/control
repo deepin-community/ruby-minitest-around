@@ -1,0 +1,27 @@
+Source: ruby-minitest-around
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Balasankar C <balasankarc@autistici.org>
+Build-Depends: debhelper (>= 11~),
+               gem2deb,
+               rake,
+               ruby-minitest
+Standards-Version: 4.2.1
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-minitest-around.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-minitest-around
+Homepage: https://github.com/splattael/minitest-around
+Testsuite: autopkgtest
+XS-Ruby-Versions: all
+
+Package: ruby-minitest-around
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-minitest,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Around block for minitest
+ Alternative for setup/teardown dance. Minitest-around also enables the use of
+ multiple before/after blocks, which normally don't work in minitest.
+ minitest-around currently supports only minitest 5.X

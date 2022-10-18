@@ -1,0 +1,2 @@
+version=3
+https://gemwatch.debian.net/minitest-around .*/minitest-around-(.*).tar.gz
